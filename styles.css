@@ -3,27 +3,29 @@ body {
     display:flex;
     flex-flow: column wrap;
     justify-content: center;
-    
     padding:0px;
     margin:0px;
-    
+    background-image: url('../Ground-Type-Landing-Page/Images/00d.jpeg');
+    background-position: center;
 }
 
 header{
-    background-color: goldenrod;
+    background-color: rgba(228, 172, 30, 0.6);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     
 }
 
 header > ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 16px;
+    padding-right: 10px;
 }
 .heavyball{
-    width: 50px;
+    width: 60px;
+    padding-left: 5px;
+    
 }

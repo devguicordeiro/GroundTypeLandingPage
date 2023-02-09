@@ -1,0 +1,16 @@
+.navigator{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: goldenrod;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 50px;
+    
+}

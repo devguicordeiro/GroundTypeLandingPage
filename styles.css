@@ -78,3 +78,29 @@ ul li a{
     text-transform: uppercase;
     border-radius: 50px;
 }
+
+#pokemons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #f3a738;
+}
+
+#pokemons .textlist{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.pkmboxes{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.pkmbox{
+    width: 100px;
+    height: 100px;
+}

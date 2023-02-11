@@ -6,11 +6,17 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(./Images/00d.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
 }
 
 header{
-    height: 70px;
-    background-color:goldenrod;
+    height: 85px;
+    background-color:rgba(226, 169, 24, 0.6);;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -29,4 +35,46 @@ ul li a{
 
 .heavyball{
     padding: 0 15px;
+}
+
+#introduction{
+    display:flex;
+    height: calc(100vh - 85px);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#introduction h1{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(226, 169, 24, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    border: black solid 4px;
+}
+
+#introduction .descr{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    background-color: #f3a738;
+    border-radius: 20px;
+    border: black solid 2px;
+    margin:  30px;
+    padding: 10px 10px;
+    
+}
+
+.button{
+    font-size: 30px;
+    padding: 15px 30px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
 }

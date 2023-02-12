@@ -102,6 +102,7 @@ ul li a{
 }
 
 .pkmbox{
+    position: relative;
     width: 240px;
     height: 280px;
     background-color: goldenrod;

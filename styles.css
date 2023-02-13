@@ -101,7 +101,11 @@ ul li a{
     justify-content: space-evenly;
 }
 
-.pkmbox{
+.pkmboxes .pkmbox{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-evenly;
     position: relative;
     width: 240px;
     height: 280px;
@@ -111,4 +115,51 @@ ul li a{
     padding: 15px;
     border: black solid 2px;
     text-align: center;
+}
+
+.pkmboxes .pkmbox .imgbox{
+    position:absolute;
+    width: 240px;
+    height: 280px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    padding: 15px;
+    border: black solid 2px;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.pkmboxes .pkmbox:hover .imgbox{
+    transform: translate(0, -50px);
+}
+
+.pkmboxes .pkmbox .imgbox p{
+    color: white;
+    font-size: 24px;
+}
+
+.pkmboxes .pkmbox .underbox {
+    position:absolute;
+    width: 240px;
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    border: black solid 2px;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    object-fit: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.pkmnumber{
+    font-size: 18px;
+}
+
+.type{
+    margin: -7px;
 }

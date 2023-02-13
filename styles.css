@@ -18,7 +18,7 @@ header{
     height: 85px;
     background-color:rgba(226, 169, 24, 0.6);;
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -27,10 +27,15 @@ ul{
     list-style-type: none;
 }
 
+
 ul li a{
     padding: 0 15px;
     text-decoration: none;
     color: white;
+}
+
+ul li:hover a{
+    color:rgb(105, 62, 13);
 }
 
 .heavyball{
@@ -77,6 +82,13 @@ ul li a{
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 50px;
+    border: black solid 1px;
+}
+
+.button:hover{
+    background-color: greenyellow;
+    border: black solid 1px;
+    color: black;
 }
 
 #pokemons{
@@ -162,4 +174,59 @@ ul li a{
 
 .type{
     margin: -7px;
+}
+
+#effeweak{
+    height: 100vh;
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+    background-image: url(./Images/Ground-Types.jpg);
+}
+
+.ewconteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px 5px;
+}
+
+.ewconteiner p{
+    color: white;
+    font-size: 24px;
+    background-color: goldenrod;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ewconteiner img{
+    width: 120px
+}
+
+.effe, .weak, .immuneto, .immuneagainst{
+    width: 700px;
+    height: 250px;
+    background-color: rgba(206, 156, 30, 0.4);
+    border-radius: 20px;
+    border: black solid 2px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    border: black solid 4px;
+    background-color:rgba(105, 62, 13, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
 }

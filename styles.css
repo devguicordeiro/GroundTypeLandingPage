@@ -211,7 +211,7 @@ ul li:hover a{
 .effe, .weak, .immuneto, .immuneagainst{
     width: 700px;
     height: 250px;
-    background-color: rgba(206, 156, 30, 0.4);
+    background-color: rgba(105, 62, 13, 0.404);;
     border-radius: 20px;
     border: black solid 2px;
     display:flex;
@@ -225,8 +225,34 @@ h2{
     font-size: 40px;
     color: white;
     border: black solid 4px;
-    background-color:rgba(105, 62, 13, 0.1);
+    background-color:rgba(105, 62, 13, 0.404);
     padding: 20px;
     border-radius: 20px;
     font-weight: 700;
+}
+
+#conclusion{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(105, 62, 13, 1)
+    
+}
+
+.concl{
+    width: 70%;
+    margin-top: 150px;
+    border: black solid 2px;
+}
+
+#conclusion p{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    background-color: #f3a738;
+    border-radius: 20px;
+    border: black solid 2px;
+    margin:  30px;
+    padding: 20px
 }

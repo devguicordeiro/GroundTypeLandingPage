@@ -1,5 +1,5 @@
 # Ground-Type-Landing-Page
-know a little more about ground type pokémon
+know more about ground type pokémon
 
 I started all on my own, trying to build this page
 without googling anything but it was just exaustive

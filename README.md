@@ -1,4 +1,4 @@
-# Ground-Type-Landing-Page
+# GroundTypeLandingPage
 know more about ground type pokémon
 
 I started all on my own, trying to build this page
